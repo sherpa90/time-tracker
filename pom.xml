@@ -26,12 +26,6 @@
         <module>core</module>
         <module>web</module>
     </modules>
-         
-<dependency>
-    <groupId>cglib</groupId>
-    <artifactId>cglib</artifactId>
-    <version>3.3.0</version> 
-</dependency>
 
     <build>
         <pluginManagement>
@@ -95,4 +89,9 @@
             </plugin>
         </plugins>
     </reporting>
+         <dependency>
+             <groupId>cglib</groupId>
+             <artifactId>cglib</artifactId>
+             <version>3.3.0</version> 
+         </dependency>
 </project>
